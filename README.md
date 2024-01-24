@@ -26,6 +26,7 @@ Make sure to set up a MySQL database and update the `.env` file with the correct
 
 ```sql
 CREATE DATABASE nefturians_db;
+```
 
 ## API Routes 🌐
 
