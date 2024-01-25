@@ -57,9 +57,4 @@ This app uses the following API routes:
 - Crypto (for generating Nefturian indices)
 - dotenv (for managing environment variables)
 
-## Demo 👾
-
-<video width="320" height="240" controls>
-  <source src="nefturians_demo.mov" type="video/mov">
-  Your browser does not support the video tag.
-</video>
+## [Demo 👾](nefturians_demo.mov)
