@@ -16,7 +16,7 @@ To get started with this project, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/mathisrgt/nefturians.git`
 2. Install dependencies: `npm install`
-3. Create a MySQL database.
+3. Create a MySQL database and use the SQL script below.
 4. Start the development server: `npm run dev`
 
 ## Database Setup 🏢
