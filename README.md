@@ -14,11 +14,10 @@ Welcome to my Nefturians app, a Next.js application with NextUI, a MySQL databas
 
 To get started with this project, follow these steps:
 
-1. Clone this repository: `git clone <repository-url>`
+1. Clone this repository: `git clone https://github.com/mathisrgt/nefturians.git`
 2. Install dependencies: `npm install`
-3. Create a MySQL database and update the connection settings in `.env`.
-4. Run the migrations: `npm run db:migrate`
-5. Start the development server: `npm run dev`
+3. Create a MySQL database.
+4. Start the development server: `npm run dev`
 
 ## Database Setup 🏢
 
