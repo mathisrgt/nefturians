@@ -1,6 +1,6 @@
-# Nefturians Project 🚀
+# Nefturians
 
-Welcome to my Nefturians app, a Next.js application with NextUI, a MySQL database and TypeScript!
+Nefturians project using Next.js, NextUI, a MySQL database and TypeScript!
 
 ## Table of Contents 📋
 
@@ -40,13 +40,13 @@ CREATE TABLE NefturianSides (
 ## API Routes 🌐
 This app uses the following API routes:
 
-- POST /api/index: Retrieves or creates a Nefturian index based on the provided Ethereum address.
+- POST /api/:index Retrieves or creates a Nefturian index based on the provided Ethereum address.
 
-- POST /api/side: Creates a new Nefturian record with the specified Nefturian index and side number.
+- POST /api/:side Creates a new Nefturian record with the specified Nefturian index and side number.
 
-- GET /api/side/:nefturianIndex: Retrieves the Nefturian side number for a given Nefturian index.
+- GET /api/side/:nefturianIndex Retrieves the Nefturian side number for a given Nefturian index.
 
-- POST /api/setside/:nefturianIndex/:side: Updates the Nefturian side number for a given Nefturian index.
+- POST /api/setside/:nefturianIndex/:side Updates the Nefturian side number for a given Nefturian index.
 
 ## Technologies Used
 - Next.js
