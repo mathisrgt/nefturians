@@ -26,9 +26,37 @@ Make sure to set up a MySQL database and update the `.env` file with the correct
 
 ```sql
 CREATE DATABASE nefturians_db;
+
+USE nefturians_db;
+
+CREATE TABLE NefturianSides (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nefturianIndex INT NOT NULL UNIQUE,
+    side INT NOT NULL,
+    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
 ```
 
 ## API Routes 🌐
+This app uses the following API routes:
+
+- POST /api/index: Retrieves or creates a Nefturian index based on the provided Ethereum address.
+
+- POST /api/side: Creates a new Nefturian record with the specified Nefturian index and side number.
+
+- GET /api/side/:nefturianIndex: Retrieves the Nefturian side number for a given Nefturian index.
+
+- POST /api/setside/:nefturianIndex/:side: Updates the Nefturian side number for a given Nefturian index.
+
+## Technologies Used
+- Next.js
+- TypeScript
+- Express.js
+- MySQL
+- Next UI (for UI components)
+- Crypto (for generating Nefturian indices)
+- dotenv (for managing environment variables)
 
 ## Demo 👾
 
